@@ -4,21 +4,25 @@ Django web application with configurable pricing module for ride services like U
 
 ## 📸 Screenshots
 
-### Django Admin Interface
+### Admin Login
+![Admin Login](screenshots/login.png)
+*Secure admin login interface*
+
+### Django Admin Dashboard
 ![Admin Dashboard](screenshots/admin-dashboard.png)
 *Main admin interface showing pricing configurations and audit logs*
 
 ### Pricing Configuration Management
 ![Pricing Config](screenshots/pricing-config.png)
+*Pricing configurations list with active/inactive status*
+
+### Add Configuration Form
+![Configuration Form](screenshots/form.png)
 *Add/Edit pricing configuration with comprehensive validation*
 
 ### API Documentation
-![API Docs](screenshots/api-docs.png)
-*Complete REST API documentation with examples*
-
-### Price Calculation Response
-![API Response](screenshots/api-response.png)
-*Live API response showing price breakdown*
+![API Documentation](screenshots/api.png)
+*Complete REST API documentation with endpoints and examples*
 
 ## 🏗️ Features
 
