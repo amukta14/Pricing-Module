@@ -2,7 +2,7 @@
 
 Django web application with configurable pricing module for ride services like Uber/Ola.
 
-## 📸 Screenshots
+## Screenshots
 
 ### Admin Login
 ![Admin Login](screenshots/login.png)
@@ -24,7 +24,7 @@ Django web application with configurable pricing module for ride services like U
 ![API Documentation](screenshots/api.png)
 *Complete REST API documentation with endpoints and examples*
 
-## 🏗️ Features
+## Features
 
 - **Configurable Pricing**: Multiple pricing configurations with day-based rules
 - **Django Admin**: Full management interface with audit logging
@@ -32,7 +32,7 @@ Django web application with configurable pricing module for ride services like U
 - **Formula**: `Price = (DBP + (Dn × DAP)) + (Tn × TMF) + WC`
 - **Testing**: 17 comprehensive test cases (all passing)
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Clone and setup
@@ -50,7 +50,7 @@ python manage.py runserver
 - API Docs: http://127.0.0.1:8000/api/docs/
 - Health: http://127.0.0.1:8000/api/health/
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### Calculate Price
 **POST** `/api/calculate-price/`
@@ -72,7 +72,7 @@ python manage.py runserver
 ### Documentation
 **GET** `/api/docs/`
 
-## 🔧 Technical Details
+## Technical Details
 
 **Architecture:**
 - Models: PricingConfiguration, PricingConfigurationLog, RideCalculation
@@ -86,13 +86,13 @@ python manage.py runserver
 - **TMF**: Time Multiplier Factor (1x, 1.25x, 1.5x based on hours)
 - **WC**: Waiting Charges (5 INR per 3-minute interval)
 
-## 🧪 Testing
+## Testing
 
 ```bash
 python manage.py test  # 17 tests (all passing)
 ```
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 pricing_module/
